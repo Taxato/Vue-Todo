@@ -99,7 +99,6 @@ onMounted(() => {
 		</section>
 
 		<section class="todo-list">
-			<h3>TODO LIST</h3>
 			<div class="list">
 				<div
 					v-for="todo in todosAsc"

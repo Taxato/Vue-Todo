@@ -3,6 +3,7 @@
 	--business: #1c63cd;
 	--personal: var(--primary);
 	--light: #eee;
+	--medium-light: #ccc;
 	--grey: #888;
 	--dark: #313154;
 	--danger: #ff5b57;
@@ -36,8 +37,8 @@ button {
 body {
 	background: var(--light);
 	color: var(--dark);
-	display: flex;
-	justify-content: center;
+	display: grid;
+	place-items: center;
 }
 
 section {
@@ -181,6 +182,7 @@ input:checked ~ .bubble::after {
 }
 
 .todo-list .todo-item {
+	overflow: hidden;
 	display: flex;
 	align-items: center;
 	background-color: #fff;
